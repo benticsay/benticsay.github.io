@@ -1,51 +1,63 @@
-<html>
-<head>
-  <title>BenTicsay</title>
-  <link rel="stylesheet" href="stylesheets/animations.css">
-  <link rel="stylesheet" href="stylesheets/style.css">
-  <script type="text/javascript" src="javascripts/jquery-1.10.2.js"></script>
-  <script type="text/javascript" src="javascripts/raphael-min.js"></script>
-</head>
-<body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animations.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        
+        <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
+        <script src="js/raphael-min.js"></script>
+        
+        <script src="js/main.js"></script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="icons">
+            <h3>Stack</h3>
+        </div>
+
+        <div id="icons2">
+            <h3>Projects</h3>
+        </div>
+
+        <!-- <div id="icons3"></div> -->
+
+        <div id="icons4">
+            <h3>About Me</h3>
+        </div>
+
+        <div id="me-area">
+            <a href="http://www.benticsay.com"></a>
+            <object id="face" class="tossing" type="image/svg+xml" data="img/photo_1_copy_2.svg">Your browser does not support SVG</object>
+            <h2>Ben Ticsay</h2>
+            <h3>Full Stack Web Developer</h3>
+        </div>
 
 
 
-    <object id="face" class="tossing" type="image/svg+xml" data="images/photo_1_copy_2.svg">Your browser does not support SVG</object>
 
-    <h2>Ben Ticsay</h2>
-
-    <div class="sections">
-      <img src="images/icon_13585.png" height="100px" width="100px">
-      <h5>About Me</h5>
-    </div>
-
-    <div class="sections">
-      <img src="images/icon_4684.png" height="100px" width="100px">
-      <h5>Skills</h5>
-    </div>
-
-    <div class="sections">
-      <img src="images/icon_2721.png" height="100px" width="100px">
-      <h5>Portfolio</h5>
-    </div>
-
-    <div class="sections">
-      <img src="images/icon_42970.png" height="100px" width="100px">
-      <h5>Contact</h5>
-    </div>
-
-
-
-<!--     <object id="thought-cloud" type="image/svg+xml" data="images/thoughtcloud.svg">Your browser does not support SVG</object> -->
-
-
-</body>
+    </body>
 </html>
-
-
-<!-- http://lazylinepainter.info/
-http://treehouse-blog.s3.amazonaws.com/SVG%20Animations/initializr/index.html
-http://blog.teamtreehouse.com/svg-path-animation-with-jquery-and-illustrator
-http://css-tricks.com/animating-svg-css/
-http://design.tutsplus.com/tutorials/svg-files-from-illustrator-to-the-web--vector-20899
-http://tympanus.net/codrops/2013/02/06/interactive-infographic-with-svg-and-css-animations/ -->
