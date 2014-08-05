@@ -206,6 +206,12 @@ var pathObj4 = {
         "strokeColor": "#00267F"
     }).lazylinepainter('paint'); 
 
+     // $('#about-me').hide();
+$('#icons4-button').click(function() {
+    $('#about-me').toggle('slow');
+});
+
+
  });
 
 

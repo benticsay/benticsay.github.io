@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    /*opacity: 0.3;*/
 }
 
 ::-moz-selection {
@@ -62,11 +63,11 @@ textarea {
 
 
 body { 
-    background:#F3B71C; 
+    /*background:#CBD1D4; */
 }
 
 #icons {
-    position: fixed;
+    position: absolute;
     top:50%;
     left:50%;
     margin: -150px 0 0 -200px;
@@ -74,7 +75,7 @@ body {
 }
 
 #icons2 {
-    position: fixed;
+    position: absolute;
     top:50%;
     left:50%;
     margin: 0 0 0 0;
@@ -89,11 +90,24 @@ body {
 }*/
 
 #icons4 {
-    position: fixed;
+    position: absolute;
     top:50%;
     left:50%;
     margin: -300px 0 0 -400px;
     text-align: center;
+}
+
+#icons4-button {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
 }
 
 
@@ -118,10 +132,15 @@ body {
 }
 
 #face {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   position: relative; 
   /*margin-right: 100px;*/
+}
+
+#face2 {
+    width: 275px;
+    height: 250px;
 }
 
 h2 {
@@ -136,6 +155,13 @@ h3 {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+#about-me {
+    position: relative;
+    color: #00267F;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: block;
+    display: none;
+}
 
 /* ==========================================================================
    Media Queries
