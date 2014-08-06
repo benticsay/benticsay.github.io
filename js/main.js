@@ -211,6 +211,10 @@ $('#icons4-button').click(function() {
     $('#about-me').toggle('slow');
 });
 
+$('#icons2-button').click(function() {
+    $('#stack').toggle('slow');
+});
+
 
  });
 
