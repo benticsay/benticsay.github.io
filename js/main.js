@@ -210,19 +210,19 @@ var pathObj4 = {
 $('#icons4-button').click(function() {
     $('#stack').hide();
     $('#projects').hide(); 
-    $('#about-me').toggle('slow');
+    $('#about-me').slideToggle('slow');
 });
 
 $('#icons-button').click(function() {
     $('#about-me').hide();
     $('#projects').hide();
-    $('#stack').toggle('slow');
+    $('#stack').slideToggle('slow');
 });
 
 $('#icons2-button').click(function() {
     $('#about-me').hide();
     $('#stack').hide();
-    $('#projects').toggle('slow');
+    $('#projects').slideToggle('slow');
 });
 
 
