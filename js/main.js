@@ -208,12 +208,23 @@ var pathObj4 = {
 
      // $('#about-me').hide();
 $('#icons4-button').click(function() {
+    $('#stack').hide();
+    $('#projects').hide(); 
     $('#about-me').toggle('slow');
 });
 
-$('#icons2-button').click(function() {
+$('#icons-button').click(function() {
+    $('#about-me').hide();
+    $('#projects').hide();
     $('#stack').toggle('slow');
 });
+
+$('#icons2-button').click(function() {
+    $('#about-me').hide();
+    $('#stack').hide();
+    $('#projects').toggle('slow');
+});
+
 
 
  });
