@@ -11,7 +11,7 @@ src: url("font/LeagueGothic-Regular.otf") format("opentype");
 
 body { 
     font: LeagueGothic-Regular, sans-serif;
-    background-image: url("http://www.iwebdesigner.it/wp-content/uploads/2012/08/line_paper013.jpg");
+    background-image: url(../img/line_paper.jpg);
     background-color: white;
     height: 850px;
     overflow: scroll; 
@@ -131,7 +131,8 @@ h2 {
 h3 {
     margin-top: 2px;
     color: #00267F;
-    font-family: LeagueGothic-Regular, sans-serif; 
+    font-family: LeagueGothic-Regular, sans-serif;
+    font-weight: 100;
     /*font-family: 'Ubuntu Condensed', sans-serif;*/
 }
 
@@ -162,7 +163,7 @@ h3 {
     /*font-family: 'Ubuntu Condensed', sans-serif;*/
     display: block;
     display: none;
-    margin: 275px 50px 200px 200px;   
+    margin: 375px 50px 200px 200px;   
 }
 
 
@@ -174,12 +175,13 @@ h3 {
 
 #name {
     font-size: 400%;
+    font-weight: 100;
     margin-right: 100px;
     margin-top: 2px;
 }
 
 #project3 {
-    vertical-align: top;
+     vertical-align: top;
      position: relative; 
      display: inline-block;
      margin: 25px;
@@ -187,7 +189,7 @@ h3 {
  }
 
 #project2 {
-    vertical-align: top;
+     vertical-align: top;
      position: relative; 
      display: inline-block;
      margin: 25px;
@@ -195,16 +197,12 @@ h3 {
  }
 
  #project1 {
-    vertical-align: top;
+     vertical-align: top;
      position: relative; 
      display: inline-block;
      /*margin: 25px;*/
      width: 450;
  }
-
-
-/*/*
-
 
 /* ==========================================================================
    Media Queries
