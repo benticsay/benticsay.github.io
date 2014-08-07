@@ -136,7 +136,7 @@ h3 {
 }
 
 #about-me {
-    position: fixed;
+    position: absolute;
     color: #00267F;
     font-family: LeagueGothic-Regular, sans-serif; 
     /*font-family: 'Ubuntu Condensed', sans-serif;*/
@@ -146,7 +146,7 @@ h3 {
 }
 
 #stack {
-    position: fixed;
+    position: absolute;
     color: #00267F;
     font-family: LeagueGothic-Regular, sans-serif; 
     /*font-family: 'Ubuntu Condensed', sans-serif;*/
@@ -156,13 +156,13 @@ h3 {
 }
 
 #projects {
-    position: fixed;
+    position: absolute;
     color: #00267F;
     font-family: LeagueGothic-Regular, sans-serif; 
     /*font-family: 'Ubuntu Condensed', sans-serif;*/
     display: block;
     display: none;
-    margin: 295px 50px 200px 200px;   
+    margin: 275px 50px 200px 200px;   
 }
 
 
