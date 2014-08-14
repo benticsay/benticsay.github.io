@@ -1,3 +1,311 @@
+
+        <div id="icons">
+            <button id="icons-button"></button>
+            <h3>Stack</h3>
+        </div>
+
+        <div id="icons2">
+            <button id="icons2-button"></button>
+            <h3>Projects</h3>
+        </div>
+
+        <!-- <div id="icons3"></div> -->
+
+        <div id="icons4">
+            <button id="icons4-button"></button>
+            <h3>About Me</h3>
+        </div>
+
+        <div id="me-area">
+            <a href="http://www.benticsay.com"></a>
+            <!-- <img id="face2" src="img/photo (1).JPG"> -->
+           <object id="face" class="tossing" type="image/svg+xml" data="img/photo_1_copy_2.svg">Your browser does not support SVG</object>
+           <h2 id="name">TICSAY</h2>
+             <div class="icons-list">
+              <i class="icon-circlegithub" ><a target="_blank" class="icon-circlegithub" href="https://github.com/benticsay"></a></i>
+              <!-- <p class="iconic floating"></p> -->
+              <i class="icon-linkedin"><a target="_blank"  href="https://linkedin.com/in/benticsay"></a></i>
+              <i class="icon-emailalt"><a href="mailto:benticsay@gmail.com"></a></i>
+            </div>
+
+            <!-- <h3>Full Stack Web Developer</h3> -->
+        </div>
+
+        <div class="text-sections" id="about-me">
+          <h3>"I am a writer, a doctor, a nuclear physicist, and a theoretical philosopher. But above all, I am a man, a hopelessly inquisitive man, just like you." - Lancaster Dodd, 'The Master' (2012)</h3>
+        </div>
+        <div class="text-sections" id="stack">
+          <h2>Front End:</h2><p class="subDetails"> HTML5, CSS3, Javascript, jQuery, AJAX, Backbone.js, Underscore.js, D3.js, Bootstrap, SASS, *Learning: Adobe Creative Suite</p>
+
+          <h2>Back End:</h2><p class="subDetails">Ruby, Ruby on Rails, Sinatra, PostreSQL, Javascript, Node/Express, MongoDB, *Learning: Python</p>
+
+          <h2>Process Management:</h2><p class="subDetails">RSpec, Jasmine, Git/Github, Trello, Agile Development, Test Driven Development, Behavior Driven Development</p> 
+
+          <h2>Marketing & Analytics:</h2><p class="subDetails">Marketo, Salesforce, Google Analytics, Google Ad Words, Hootsuite, Facebook Insights, Twitter Analytics, LinkedIn Analytics</p>
+        </div>
+
+
+        <div id="projects">
+
+            <div id="project3">  
+                <a href="https://reincarnage.herokuapp.com" target="_blank">
+                <img src="img/reincarnage.gif" style="height: 350px; width: 350px;"></a>
+               <!-- <hr> --><br>
+              <p style="width: 350px;">A video game that upends traditional game premises by making the objective of the player to be eaten.</p>
+            </div>
+
+            <div id="project2">
+              <a href="https://screentest.herokuapp.com" target="_blank">
+              <img src="img/screentest.gif" style="height: 350px; width: 350px;"></a>
+            <!-- <hr> --><br>
+              <p style="width: 350px;">Analyze your personality by dragging and dropping your favorite movies.</p>
+            </div>
+
+            <div id="project1">
+              <a href="http://secure-taiga-2383.herokuapp.com/" target="_blank">
+              <img src="img/autopilot.gif" style="height: 350px; width: 350px;"></a>
+            <!-- <hr> --><br>
+              <p style="width: 350px;">Collect your writing then organize and reorder them into projects with this app.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+font-family: LeagueGothic-Regular;
+src: url("font/LeagueGothic-Regular.otf") format("opentype");
+}
+
+body { 
+    font: LeagueGothic-Regular, sans-serif;
+    background-image: url(../img/line_paper.jpg);
+    background-color: white;
+    height: 850px;
+    overflow: scroll; 
+}
+
+#icons {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -300px 0 0 -200px;
+    text-align: center;
+}
+
+#icons2 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -300px 0 0 0;
+    text-align: center;
+}
+
+/*#icons3 {
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin: 0 0 0 -400px;
+}*/
+
+#icons4 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin: -300px 0 0 -400px;
+    text-align: center;
+}
+
+#icons4-button {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+#icons-button {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+#icons2-button {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+
+
+#me-area {
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#me-area a {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+
+#face {
+  width: 200px;
+  height: 200px;
+  position: relative; 
+  margin-right: 100px;
+}
+
+#face2 {
+    width: 275px;
+    height: 250px;
+}
+
+#name {
+    font-size: 400%;
+    font-weight: 100;
+    margin-right: 100px;
+    margin-top: 2px;
+}
+
+.icons-list {
+  position: relative;
+  float: right;
+  text-align: center;
+  margin-right: 100px;
+}
+
+
+
+h2 {
+  margin-bottom: 0px;
+  color: #00267F;
+  font-family: LeagueGothic-Regular, sans-serif; 
+  /*font-family: 'Ubuntu Condensed', sans-serif;*/
+}
+
+h3 {
+    margin-top: 2px;
+    color: #00267F;
+    font-family: LeagueGothic-Regular, sans-serif;
+    font-weight: 100;
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+}
+
+#about-me {
+    position: absolute;
+    color: #00267F;
+    font-family: LeagueGothic-Regular, sans-serif; 
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+    display: block;
+    display: none;
+    margin: 250px 400px 200px 200px;
+}
+
+#stack {
+    position: absolute;
+    color: #00267F;
+    font-family: LeagueGothic-Regular, sans-serif; 
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+    display: block;
+    display: none;
+    margin: 270px 200px 200px 200px;   
+}
+
+#projects {
+    position: absolute;
+    color: #00267F;
+    font-family: LeagueGothic-Regular, sans-serif; 
+    /*font-family: 'Ubuntu Condensed', sans-serif;*/
+    display: block;
+    display: none;
+    margin: 375px 50px 200px 200px;   
+}
+
+
+
+.icon-group {
+    /*margin-top: 1250px;*/
+    font-family: LeagueGothic-Regular, sans-serif;
+}
+
+
+#project3 {
+     vertical-align: top;
+     position: relative; 
+     display: inline-block;
+     margin: 25px;
+     width: 450;
+ }
+
+#project2 {
+     vertical-align: top;
+     position: relative; 
+     display: inline-block;
+     margin: 25px;
+     width: 450;
+ }
+
+ #project1 {
+     vertical-align: top;
+     position: relative; 
+     display: inline-block;
+     /*margin: 25px;*/
+     width: 450;
+ }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */

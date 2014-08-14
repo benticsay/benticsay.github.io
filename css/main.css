@@ -1,221 +1,50 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 @font-face {
 font-family: LeagueGothic-Regular;
 src: url("font/LeagueGothic-Regular.otf") format("opentype");
 }
 
-body { 
-    font: LeagueGothic-Regular, sans-serif;
-    background-image: url(../img/line_paper.jpg);
-    background-color: white;
-    height: 850px;
-    overflow: scroll; 
-}
-
-#icons {
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin: -300px 0 0 -200px;
-    text-align: center;
-}
-
-#icons2 {
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin: -300px 0 0 0;
-    text-align: center;
-}
-
-/*#icons3 {
-    position: fixed;
-    top:50%;
-    left:50%;
-    margin: 0 0 0 -400px;
-}*/
-
-#icons4 {
-    position: absolute;
-    top:50%;
-    left:50%;
-    margin: -300px 0 0 -400px;
-    text-align: center;
-}
-
-#icons4-button {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    text-decoration:none; /* Makes sure the link   doesn't get underlined */
-    z-index:10; /* raises anchor tag above everything else in div */
-    background-color:white; /*workaround to make clickable in IE */
-    opacity: 0; /*workaround to make clickable in IE */
-    filter: alpha(opacity=1); /*workaround to make clickable in IE */
-}
-
-#icons-button {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    text-decoration:none; /* Makes sure the link   doesn't get underlined */
-    z-index:10; /* raises anchor tag above everything else in div */
-    background-color:white; /*workaround to make clickable in IE */
-    opacity: 0; /*workaround to make clickable in IE */
-    filter: alpha(opacity=1); /*workaround to make clickable in IE */
-}
-
-#icons2-button {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    text-decoration:none; /* Makes sure the link   doesn't get underlined */
-    z-index:10; /* raises anchor tag above everything else in div */
-    background-color:white; /*workaround to make clickable in IE */
-    opacity: 0; /*workaround to make clickable in IE */
-    filter: alpha(opacity=1); /*workaround to make clickable in IE */
-}
-
-
-
-#me-area {
-  position: relative;
-  float: right;
-  text-align: center;
-  margin-left: 100px;
-}
-
-#me-area a {
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    text-decoration:none; /* Makes sure the link   doesn't get underlined */
-    z-index:10; /* raises anchor tag above everything else in div */
-    background-color:white; /*workaround to make clickable in IE */
-    opacity: 0; /*workaround to make clickable in IE */
-    filter: alpha(opacity=1); /*workaround to make clickable in IE */
-}
-
-#face {
-  width: 200px;
-  height: 200px;
-  position: relative; 
-  margin-right: 100px;
-}
-
-#face2 {
-    width: 275px;
-    height: 250px;
-}
-
-h2 {
-  margin-bottom: 0px;
-  color: #00267F;
-  font-family: LeagueGothic-Regular, sans-serif; 
-  /*font-family: 'Ubuntu Condensed', sans-serif;*/
-}
-
-h3 {
-    margin-top: 2px;
-    color: #00267F;
-    font-family: LeagueGothic-Regular, sans-serif;
-    font-weight: 100;
-    /*font-family: 'Ubuntu Condensed', sans-serif;*/
-}
-
-#about-me {
-    position: absolute;
-    color: #00267F;
-    font-family: LeagueGothic-Regular, sans-serif; 
-    /*font-family: 'Ubuntu Condensed', sans-serif;*/
-    display: block;
-    display: none;
-    margin: 250px 400px 200px 200px;
-}
-
-#stack {
-    position: absolute;
-    color: #00267F;
-    font-family: LeagueGothic-Regular, sans-serif; 
-    /*font-family: 'Ubuntu Condensed', sans-serif;*/
-    display: block;
-    display: none;
-    margin: 270px 200px 200px 200px;   
-}
-
-#projects {
-    position: absolute;
-    color: #00267F;
-    font-family: LeagueGothic-Regular, sans-serif; 
-    /*font-family: 'Ubuntu Condensed', sans-serif;*/
-    display: block;
-    display: none;
-    margin: 375px 50px 200px 200px;   
-}
-
-
-
-.icon-group {
-    /*margin-top: 1250px;*/
-    font-family: LeagueGothic-Regular, sans-serif;
-}
-
 #name {
-    font-size: 400%;
-    font-weight: 100;
-    margin-right: 100px;
-    margin-top: 2px;
+  /*color: #00267F;*/
+  font-family: LeagueGothic-Regular, sans-serif;
+  text-align: center;
+  font-size: 750%;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
-#project3 {
-     vertical-align: top;
-     position: relative; 
-     display: inline-block;
-     margin: 25px;
-     width: 450;
- }
-
-#project2 {
-     vertical-align: top;
-     position: relative; 
-     display: inline-block;
-     margin: 25px;
-     width: 450;
- }
-
- #project1 {
-     vertical-align: top;
-     position: relative; 
-     display: inline-block;
-     /*margin: 25px;*/
-     width: 450;
- }
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-
+hr {
+    border: 0;
+    width: 75%;
+    height: 2.5px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,134,191,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,134,191,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,134,191,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,134,191,0.75), rgba(0,0,0,0)); 
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+.icons-list {
+  text-align: center;
+}
 
+.icons-list i {
+  margin-top: 3px;
+  padding: 20px;
+  font-size: 200%;
+  /*z-index: -10;*/
+}
+
+.icons-list a {
+  color: inherit;
+  text-decoration: none;
+  /*z-index: 10;*/
+}
+
+.center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
